@@ -1,4 +1,3 @@
-package graph;
 
 // Java program to print BFS traversal from a given source vertex. 
 // BFS(int s) traverses vertices reachable from s. 
@@ -41,7 +40,7 @@ class Graph1
 		visited[s]=true; 
 		queue.add(s); 
 
-		while (queue.size() != 0) 
+		while (!queue.isEmpty()) 
 		{ 
 			// Dequeue a vertex from queue and print it 
 			s = queue.poll(); 
