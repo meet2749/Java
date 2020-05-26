@@ -38,7 +38,7 @@ class Graph1
 
 		// Mark the current node as visited and enqueue it 
 		visited[s]=true; 
-		queue.add(s); 
+		queue.add(s);
 
 		while (!queue.isEmpty()) 
 		{ 
